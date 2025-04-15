@@ -1,0 +1,22 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta property="og:title" th:content="${product.name}" />
+    <meta property="og:description" th:content="${product.description}" />
+    <meta property="og:image" th:content="${product.images[0]}" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" th:content="${product.name}" />
+    <meta name="twitter:description" th:content="${product.description}" />
+    <meta name="twitter:thumbnail_image" th:content="${product.images[0]}" />
+    <meta name="twitter:url" th:content="${product.mapUrl}" />
+
+    <title th:text="${product.name}">Product Name</title>
+</head>
+<body>
+<h1 th:text="${product.name}">Product Title</h1>
+<p th:text="${product.description}">Product Description</p>
+<img th:src="${product.images[0]}" th:alt="${product.name}" />
+</body>
+</html>

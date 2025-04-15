@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Confirmada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf9e8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #faf9e8;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #09456c;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #09456c;
+            color: #faf9e8;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Reserva confirmada</h1>
+        <p>Hola, ${name}</p>
+        <p>Le informamos que su reserva a ${productName} ha sido confirmada. Son <b>${nights}</b> noches, siendo el Check-in <b>${startDate}</b> y el Check-out <b>${endDate}</b></p>
+        <p>Gracias por usar nuestro servicio.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 SmartStay.</p>
+    </div>
+</div>
+</body>
+</html>

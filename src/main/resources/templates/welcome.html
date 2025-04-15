@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a SmartStay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf9e8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #faf9e8;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #09456c;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #09456c;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>¡Bienvenido a SmartStay!</h1>
+        <p>Hola, ${name}</p>
+        <p>Gracias por registrarse en SmartStay. Estamos encantados de tenerte con nosotros.</p>
+        <p>Por favor, confirme su cuenta con el botón de abajo para completar el registro.</p>
+        <a href="${confirmationLink}" class="button">Confirmar cuenta</a>
+        <p>O puede copiar y pegar el siguiente enlace en su navegador:</p>
+        <p><a href="${confirmationLink}">${confirmationLink}</a></p>
+        <p>Gracias por elegir nuestro servicio.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 SmartStay.</p>
+    </div>
+</div>
+</body>
+</html>
