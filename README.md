@@ -57,22 +57,28 @@ de la carpeta de `client`
 - 📦 Gestión de reservas
 
 ### 🔍 Búsqueda
-![Búsqueda]<img src="repo/assets/busqueda.png" alt="Login" width="400"/>
+![Búsqueda]
+<img src="repo/assets/busqueda.png" alt="Login" width="400"/>
 
 ### 🎠 Carrusel
-![Carrusel]<img src="repo/assets/carrusel.png" alt="Login" width="400"/>
+![Carrusel]
+<img src="repo/assets/carrusel.png" alt="Login" width="400"/>
 
 ### ⭐ Favoritos
-![Favoritos]<img src="repo/assets/favoritos.png" alt="Login" width="400"/>
+![Favoritos]
+<img src="repo/assets/favoritos.png" alt="Login" width="400"/>
 
 ### 🔐 Login
-![Login]<img src="repo/assets/login.png" alt="Login" width="400"/>
+![Login]
+<img src="repo/assets/login.png" alt="Login" width="400"/>
 
 ### 🛍️ Producto
-![Producto]<img src="repo/assets/producto.png" alt="Login" width="400"/>
+![Producto]
+<img src="repo/assets/producto.png" alt="Login" width="400"/>
 
 ### 📦 Recomendados
-![Recomendados](<img src="repo/assets/recomendados.png" alt="Login" width="400"/>
+![Recomendados]
+<img src="repo/assets/recomendados.png" alt="Login" width="400"/>
 
 # 🗒️Requerimientos
 
